@@ -3,8 +3,6 @@ The website showcases my resume and professional information.
 
 ## [Live Site](https://resume-4fevo6gzo-annasimaniuk.vercel.app/)
 
-Звісно! Ось перелік використаних технологій у вигляді іконок:
-
 ## Technologies Used
 
 - ![Next.js](https://img.shields.io/badge/-Next.js-000000?logo=next.js&logoColor=white&style=flat-square)
