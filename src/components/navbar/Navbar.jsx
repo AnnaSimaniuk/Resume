@@ -21,6 +21,13 @@ const Navbar = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const handleModeChange = () => {
+    if (mode === "light") {
+      setMode("dark");
+    } else {
+      setMode("light");
+    }
+  };
   return (
     <header className="w-full px-32 py-8 font-medium flex items-center justify-between dark:text-light relative z-10 lg:px-16 md:px-12 sm:px-8">
       <button
@@ -73,7 +80,7 @@ const Navbar = () => {
             <TelegramIcon />
           </CustomIcon>
           <button
-            onClick={() => setMode(mode === "light" ? "dark" : "light")}
+            onClick={handleModeChange}
             className="ml-3 flex items-center justify-center rounded-full p-1"
           >
             {mode === "dark" ? (
@@ -85,9 +92,7 @@ const Navbar = () => {
         </nav>
       </div>
 
-      {isMenuOpen && (
-        <BurgerMenu isMenuOpen={isMenuOpen} handleMenuOpen={handleMenuOpen} />
-      )}
+      {isMenuOpen && <BurgerMenu handleMenuOpen={handleMenuOpen} />}
 
       <div className="absolute left-[50%] top-2 translate-x-[-50%]">
         <Logo />

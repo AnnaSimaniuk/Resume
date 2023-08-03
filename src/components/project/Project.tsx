@@ -7,7 +7,7 @@ interface ProjectProps {
   type: string;
   title: string;
   summary: string;
-  img: string;
+  img: any;
   link: string;
   github: string;
 }

@@ -11,12 +11,16 @@ import useThemeSwitcher from "@/hooks/useThemeSwitcher";
 import CustomMobileLink from "@/UI/custom-link/custom-mobile-link/CustomMobileLink";
 import { motion } from "framer-motion";
 
-interface BurgerMenuProps {
-  handleMenuOpen: () => void;
-}
-
-const BurgerMenu = ({ handleMenuOpen }: BurgerMenuProps) => {
+const BurgerMenu = ({ handleMenuOpen }) => {
   const [mode, setMode] = useThemeSwitcher();
+
+  const handleModeChange = () => {
+    if (mode === "light") {
+      setMode("dark");
+    } else {
+      setMode("light");
+    }
+  };
   return (
     <motion.div
       initial={{ scale: 0, opacity: 0, x: "-50%", y: "-50%" }}
@@ -69,7 +73,7 @@ const BurgerMenu = ({ handleMenuOpen }: BurgerMenuProps) => {
           <TelegramIcon />
         </CustomIcon>
         <button
-          onClick={() => setMode(mode === "light" ? "dark" : "light")}
+          onClick={handleModeChange}
           className="ml-3 flex items-center justify-center rounded-full p-1 sm:mx-1"
         >
           {mode === "dark" ? (

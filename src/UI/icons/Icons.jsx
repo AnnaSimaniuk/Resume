@@ -1,8 +1,4 @@
-interface IconProps {
-  className?: string;
-}
-
-export const GithubIcon = ({ className = "", ...rest }: IconProps) => (
+export const GithubIcon = ({ className = "", ...rest }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 512 512"
@@ -17,7 +13,7 @@ export const GithubIcon = ({ className = "", ...rest }: IconProps) => (
   </svg>
 );
 
-export const GmailIcon = ({ className = "", ...rest }: IconProps) => (
+export const GmailIcon = ({ className = "", ...rest }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 48 48"
@@ -44,7 +40,7 @@ export const GmailIcon = ({ className = "", ...rest }: IconProps) => (
   </svg>
 );
 
-export const LinkedInIcon = ({ className = "", ...rest }: IconProps) => (
+export const LinkedInIcon = ({ className = "", ...rest }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 256 256"
@@ -63,7 +59,7 @@ export const LinkedInIcon = ({ className = "", ...rest }: IconProps) => (
   </svg>
 );
 
-export const TelegramIcon = ({ className = "", ...rest }: IconProps) => (
+export const TelegramIcon = ({ className = "", ...rest }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 48 48"
@@ -86,7 +82,7 @@ export const TelegramIcon = ({ className = "", ...rest }: IconProps) => (
   </svg>
 );
 
-export const SunIcon = ({ className = "", ...rest }: IconProps) => (
+export const SunIcon = ({ className = "", ...rest }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="24"
@@ -264,7 +260,7 @@ export const SunIcon = ({ className = "", ...rest }: IconProps) => (
   </svg>
 );
 
-export const MoonIcon = ({ className = "", ...rest }: IconProps) => (
+export const MoonIcon = ({ className = "", ...rest }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="24"
@@ -420,7 +416,7 @@ export const MoonIcon = ({ className = "", ...rest }: IconProps) => (
   </svg>
 );
 
-export const CircularText = ({ className = "", ...rest }: IconProps) => (
+export const CircularText = ({ className = "", ...rest }) => (
   <svg
     version="1.0"
     xmlns="http://www.w3.org/2000/svg"
@@ -587,7 +583,7 @@ l-23 -18 26 -24 c46 -43 133 -23 156 37 13 35 2 87 -26 113 -30 28 -91 35
   </svg>
 );
 
-export const LinkArrow = ({ className = "", ...rest }: IconProps) => (
+export const LinkArrow = ({ className = "", ...rest }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={24}

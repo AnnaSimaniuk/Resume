@@ -9,7 +9,7 @@ interface EducationDetailsProps {
   time: string;
   place: string;
   info: string;
-  certificate?: string;
+  certificate?: any;
   link?: string;
 }
 
