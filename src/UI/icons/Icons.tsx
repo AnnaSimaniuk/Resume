@@ -433,7 +433,7 @@ export const CircularText = ({ className = "", ...rest }: IconProps) => (
   >
     <g
       transform="translate(0.000000,300.000000) scale(0.100000,-0.100000)"
-      fill="currentColor"
+      fill="#000000"
       stroke="none"
     >
       <path
