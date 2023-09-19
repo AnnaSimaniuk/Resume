@@ -1,7 +1,7 @@
 # Resume
 The website showcases my resume and professional information. 
 
-## [Live Site](https://resume-4fevo6gzo-annasimaniuk.vercel.app/)
+## [Live Site](https://resume-annasimaniuk.vercel.app/)
 
 ## Technologies Used
 
