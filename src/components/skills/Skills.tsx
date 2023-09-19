@@ -27,6 +27,9 @@ const Skills = () => {
         <Skill name={"Typescript"} x={"0vw"} y={"-20vw"} />
         <Skill name={"MUI"} x={"-25vw"} y={"-18vw"} />
         <Skill name={"Bootstrap"} x={"18vw"} y={"18vw"} />
+        <Skill name={"Next JS"} x={"29vw"} y={"-15vw"} />
+        <Skill name={"TailwindCSS"} x={"-35vw"} y={"7vw"} />
+        <Skill name={"Qwik"} x={"-17vw"} y={"18vw"} />
       </div>
     </>
   );

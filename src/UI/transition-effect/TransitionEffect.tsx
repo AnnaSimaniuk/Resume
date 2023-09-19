@@ -4,7 +4,7 @@ const TransitionEffect = () => {
   return (
     <>
       <motion.div
-        style={{ width: "100vw", backgroundColor: "#B63E96", zIndex: 30 }}
+        style={{ width: "100vw", backgroundColor: "#f97804", zIndex: 30 }}
         className="fixed top-0 bottom-0 right-full w-screen h-screen bg-primary"
         animate={{ x: "0%", width: "0%" }}
         transition={{ duration: 0.6, ease: "easeInOut" }}

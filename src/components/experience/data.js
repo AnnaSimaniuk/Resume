@@ -6,7 +6,7 @@ export const experienceData = [
     companyLink: "https://ukrsibbank.com/",
     address: "Ivano-Frankivsk, Ukraine",
     work: "During my tenure as the Head of the branch, I successfully transformed the department from a declining and underperforming unit into the best-performing branch in Western Ukraine. Through effective organization and strategic management, we achieved outstanding results, surpassing planned indicators. Moreover, I focused on catering to top clients and skillfully attracted customers from medium-sized businesses and the booming IT sector. One significant achievement during my leadership was putting a halt to the employee turnover that had been affecting the branch. By fostering a positive and supportive work environment, I managed to retain and motivate the talented staff, ensuring their commitment to the branch's success and growth. As a result, our branch became a model of excellence, contributing significantly to the bank's overall success in the region.",
-    time: "Sep 2018 - now",
+    time: "Sep 2018 - Aug 2023",
   },
   {
     id: 2,

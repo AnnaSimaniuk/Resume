@@ -6,6 +6,8 @@ import TechnoKitImage from "../../public/image/TechnoKit.png";
 import CardImage from "../../public/image/SP3.png";
 import MinesweeperImage from "../../public/image/Minesweeper.png";
 import ForkioImage from "../../public/image/Forkio.png";
+import LogicGov from "../../public/image/LogicGov.png";
+import Mealsy from "../../public/image/Mealsy.png";
 import Project from "@/components/project/Project";
 import Link from "next/link";
 import TransitionEffect from "@/UI/transition-effect/TransitionEffect";
@@ -24,6 +26,42 @@ const Projects = () => {
             className="!text-7xl w-fit mb-16 lg:!text-6xl sm:!text-5xl xs:!text-4xl sm:mb-8"
           />
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
+            <div className="col-span-12">
+              <FeaturedProject
+                type={"Recipe App"}
+                title={"Mealsy"}
+                summary={
+                  "This website is a culinary haven for food enthusiasts. We offer convenient recipe search and filtering based on ingredients, cuisines, dietary preferences, and cooking time, with the added benefit of an innovative recipe search constructor. Registration unlocks personalized features to enhance your culinary journey. You can also create and manage culinary books to store and organize your favorite recipes, along with efficient shopping list planning based on selected recipes. Our extensive recipe database boasts over 4000 diverse recipes, each accompanied by high-quality photos, instructive videos, and detailed descriptions. "
+                }
+                img={Mealsy}
+                link={"https://mealsy-ipnc.vercel.app/"}
+                github={"https://github.com/AnnaSimaniuk/Mealsy"}
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                link={"https://www.logicgov.com/"}
+                type={"Landing Page"}
+                title={"logicGov"}
+                summary={
+                  "This multilingual (english and hebrew) landing page for company which provide services: web development, branding & design, digital marketing, Python solutions, and blockchain solutions services."
+                }
+                img={LogicGov}
+                github={"https://github.com/AnnaSimaniuk"}
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                link={"https://annasimaniuk.github.io/Forkio/"}
+                type={"Landing Page"}
+                title={"Forkio"}
+                summary={
+                  "Landing page with custom JavaScript animations and functionality. It is designed with a focus on user experience, engagement, and aesthetics. The landing page is fully responsive, ensuring that it looks great and functions smoothly across various devices and screen sizes."
+                }
+                img={ForkioImage}
+                github={"https://github.com/AnnaSimaniuk/Forkio"}
+              />
+            </div>
             <div className="col-span-12">
               <FeaturedProject
                 type={"E-Commerce Website"}
@@ -58,18 +96,6 @@ const Projects = () => {
                 }
                 img={MinesweeperImage}
                 github={"https://github.com/AnnaSimaniuk/minesweeper"}
-              />
-            </div>
-            <div className="col-span-12">
-              <FeaturedProject
-                type={"Landing Page"}
-                title={"Forkio"}
-                summary={
-                  "Landing page with custom JavaScript animations and functionality. It is designed with a focus on user experience, engagement, and aesthetics. The landing page is fully responsive, ensuring that it looks great and functions smoothly across various devices and screen sizes."
-                }
-                img={ForkioImage}
-                link={"https://annasimaniuk.github.io/Forkio/"}
-                github={"https://github.com/AnnaSimaniuk/Forkio"}
               />
             </div>
           </div>
