@@ -31,7 +31,7 @@ const Projects = () => {
                 type={"Recipe App"}
                 title={"Mealsy"}
                 summary={
-                  "This website is a culinary haven for food enthusiasts. We offer convenient recipe search and filtering based on ingredients, cuisines, dietary preferences, and cooking time, with the added benefit of an innovative recipe search constructor. Registration unlocks personalized features to enhance your culinary journey. You can also create and manage culinary books to store and organize your favorite recipes, along with efficient shopping list planning based on selected recipes. Our extensive recipe database boasts over 4000 diverse recipes, each accompanied by high-quality photos, instructive videos, and detailed descriptions. "
+                  "This website is a culinary haven for food enthusiasts. I offer convenient recipe search and filtering based on ingredients, cuisines, dietary preferences, and cooking time, with the added benefit of an innovative recipe search constructor. Registration unlocks personalized features to enhance your culinary journey. You can also create and manage culinary books to store and organize your favorite recipes, along with efficient shopping list planning based on selected recipes. My extensive recipe database boasts over 4000 diverse recipes, each accompanied by high-quality photos, instructive videos, and detailed descriptions. "
                 }
                 img={Mealsy}
                 link={"https://mealsy-ipnc.vercel.app/"}

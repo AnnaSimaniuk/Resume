@@ -1,5 +1,31 @@
 export const experienceData = [
   {
+    id: 4,
+    position: "Frontend developer",
+    company: "Freelance",
+    companyLink: "",
+    address: "",
+    work: "<b>Front-End Web Development:\n</b>" +
+        "\n" +
+        "<p>Developed responsive and user-friendly websites using React, Next.js, and Tailwind CSS.</p>\n" +
+        "<p>Ensured a seamless and engaging user experience by optimizing website layouts and navigation.</p>\n" +
+        "\n" +
+        "<b>Back-End Integration:\n</b>" +
+        "\n" +
+        "<p>Successfully integrated front-end systems with Python-based backends to enable dynamic functionality and data management.</p>\n" +
+        "<p>Collaborated with backend developers to ensure smooth data flow and communication between front-end and back-end components.</p>\n" +
+        "\n" +
+        "<b>Website Migration:\n</b>" +
+        "\n" +
+        "<p>Led the migration process of websites from PHP to Qwik framework.</p>\n" +
+        "<p>Achieved enhanced site performance and loading speed by implementing efficient coding practices.</p>\n" +
+        "\n" +
+        "<b>Deadline Management:\n</b>" +
+        "\n" +
+        "<p>Effectively managed project timelines and prioritized tasks to meet all company deadlines.</p>\n",
+    time: "Aug 2023 - now",
+  },
+  {
     id: 1,
     position: "Head of branch",
     company: "Ukrsibbank BNP Group",
